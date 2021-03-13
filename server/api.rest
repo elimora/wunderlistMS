@@ -1,0 +1,25 @@
+###
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "descripcion":"Necesito trabajar en la tesis"
+}
+
+###
+GET  http://localhost:5000/todos
+
+
+###
+GET  http://localhost:5000/todos/2
+
+###
+PUT http://localhost:5000/todos/1
+Content-Type: application/json
+
+{
+    "descripcion":"Necesito comprar ropa"
+}
+
+###
+DELETE   http://localhost:5000/todos/2
